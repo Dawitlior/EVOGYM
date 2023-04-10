@@ -13,33 +13,37 @@ const classes: Array<ClassType> = [
   {
     name: "Weight Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Our weight training classes are designed to help you build strength, increase muscle mass, and improve your overall fitness level. Led by experienced trainers, our weight training classes focus on proper form and technique to ensure that you get the most out of your workout while minimizing the risk of injury.",
     image: image1,
   },
   {
     name: "Yoga Classes",
+    description:
+      "Our yoga classes are the perfect way to de-stress, improve your flexibility, and boost your mental and physical wellbeing. Whether you're a beginner or an experienced yogi, our classes offer a variety of styles and levels to meet your needs. From gentle, restorative yoga to more challenging vinyasa flows, we have something for everyone.",
     image: image2,
   },
   {
     name: "Ab Core Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Our ab core classes are designed to target your core muscles and help you develop a strong, toned midsection. With a focus on exercises like planks, crunches, and other core-specific moves, our classes will help you improve your posture, balance, and overall core strength.",
     image: image3,
   },
   {
     name: "Adventure Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Our adventure classes are perfect for those who want to take their fitness to the next level. Whether you're interested in rock climbing, hiking, or other outdoor activities, our adventure classes offer a fun and challenging way to stay active while exploring the great outdoors.",
     image: image4,
   },
   {
     name: "Fitness Classes",
+    description:
+      "Our fitness classes offer a variety of workouts and styles to help you stay motivated and achieve your fitness goals. From high-intensity interval training (HIIT) to dance-based workouts, our classes are designed to challenge you and keep you engaged.",
     image: image5,
   },
   {
     name: "Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Our training classes offer personalized coaching and guidance to help you achieve your specific fitness goals. Whether you're looking to build muscle, lose weight, or improve your athletic performance, our trainers will work with you to create a custom training program that meets your needs and fits your schedule.",
     image: image6,
   },
 ];
@@ -68,10 +72,15 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5">
-              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-              tellus quam porttitor. Mauris velit euismod elementum arcu neque
-              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-              enim mattis odio in risus nunc.
+              Our gym offers a variety of courses designed to help you achieve
+              your fitness goals and learn new skills. From nutrition and
+              wellness to sports-specific training, our courses are taught by
+              experienced trainers and experts in their respective fields. We
+              offer both online and in-person courses, so you can choose the
+              option that works best for you. Whether you're looking to take
+              your fitness to the next level or just want to learn something
+              new, our courses are the perfect way to expand your knowledge and
+              improve your health and wellbeing.
             </p>
           </div>
         </motion.div>
