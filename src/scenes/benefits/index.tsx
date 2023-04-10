@@ -15,19 +15,19 @@ const benefits: Array<BenefitType> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
     description:
-      "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+      "Our gym provides state-of-the-art facilities that are designed to meet all your fitness needs",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
     description:
-      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+      "We offer a wide range of fitness classes that cater to all levels of fitness and interests.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
     description:
-      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+      "Our gym boasts a team of expert and pro trainers who are dedicated to helping you achieve your fitness goals.",
   },
 ];
 
@@ -131,18 +131,32 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                Felis orci diam odio.
+                At our gym, we take pride in our community of millions of happy
+                members who are on their journey towards a healthier and more
+                active lifestyle. Our members come from all walks of life, with
+                different fitness goals, abilities, and preferences, but they
+                all share a common goal: to improve their health and wellbeing.
               </p>
               <p className="mb-5">
-                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                enim mattis odio in risus nunc.
+                Our gym provides a supportive and encouraging environment where
+                members can challenge themselves, push their limits, and achieve
+                their fitness goals. We offer a variety of resources and
+                services to help our members stay motivated, including
+                personalized training programs, group fitness classes, nutrition
+                guidance, and much more.
+              </p>
+              <p className="mb-5">
+                We believe that fitness should be fun, rewarding, and accessible
+                to everyone, regardless of their age, background, or fitness
+                level. That's why we're committed to providing our members with
+                a safe, inclusive, and welcoming space where they can focus on
+                their health and fitness goals without any distractions or
+                judgements.
+              </p>
+              <p className="mb-5">
+                Join our community of millions of happy members today and start
+                your own journey towards a healthier, fitter, and more
+                fulfilling life!
               </p>
             </motion.div>
 
