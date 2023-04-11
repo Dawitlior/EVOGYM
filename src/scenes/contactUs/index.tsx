@@ -84,7 +84,6 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             }}
           >
             <form
-              target="_blank"
               onSubmit={onSubmit}
               action="https://formsubmit.co/liordawit777@walla.com"
               method="POST"
