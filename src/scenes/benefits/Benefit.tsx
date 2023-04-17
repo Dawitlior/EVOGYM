@@ -25,7 +25,6 @@ const Benefit = ({ icon, title, description, setSelectedPage }: Props) => {
           {icon}
         </div>
       </div>
-
       <h4 className="font-bold">{title}</h4>
       <p className="my-3">{description}</p>
       <AnchorLink
@@ -38,5 +37,4 @@ const Benefit = ({ icon, title, description, setSelectedPage }: Props) => {
     </motion.div>
   );
 };
-
 export default Benefit;

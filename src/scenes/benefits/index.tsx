@@ -174,5 +174,4 @@ const Benefits = ({ setSelectedPage }: Props) => {
     </section>
   );
 };
-
 export default Benefits;
