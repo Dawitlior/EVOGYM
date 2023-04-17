@@ -21,7 +21,6 @@ const Footer = () => {
         <div className="mt-16 basis-1/4 md:mt-0">
           <h4 className="font-bold">Contact Us</h4>
           <p className="my-5"><a href="mailto:liordawit777@walla.com">Email-Me</a></p>
-          <p>(054)265-3154</p>
         </div>
       </div>
     </footer>
